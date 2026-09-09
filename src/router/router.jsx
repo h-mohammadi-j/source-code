@@ -61,7 +61,7 @@ const router = createBrowserRouter(
 ]
 ,
 {
-  basename: "/shop-app"
+  basename: "/source-code"
 }
 );
 
