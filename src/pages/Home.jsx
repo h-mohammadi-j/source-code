@@ -48,6 +48,7 @@ const Home = () => {
             <p>{product?.description}</p>
           </div>
         ))}
+        
 
         {show && <Modal />}
       </div>
