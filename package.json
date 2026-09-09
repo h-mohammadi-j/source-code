@@ -1,5 +1,5 @@
 {
-  "name": "shop-app",
+  "name": "source-code",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "server": "json-server  db.json  --host 0.0.0.0 --port $PORT"
+    "server": "json-server  db.json --host 0.0.0.0 --port $PORT"
     
   },
   

@@ -41,8 +41,8 @@ const Home = () => {
             key={product.id}
             className="text-white p-2"
           >
-            <img src={product?.category?.image?.[0]} alt="" />
-            {/* <img src={`${import.meta.env.BASE_URL}${product?.category?.image?.[0]}`} alt="" /> */}
+            {/* <img src={product?.category?.image?.[0]} alt="" /> */}
+            <img src={`${import.meta.env.BASE_URL}${product?.category?.image?.[0]}`} alt="" />
             <h2>{product?.title}</h2>
             <h3>{product?.slug}</h3>
             <p>{product?.description}</p>
