@@ -6,6 +6,7 @@ export const getProducts = async () => {
 
     const response = await fetch(`${API_URL}/products`)
     return response.json()
+    
 }
 
 
